@@ -1,0 +1,772 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    font-family: Poppins;
+}
+
+
+/* judul */
+.des-tnr{
+    padding-top: 20px;
+}
+
+.des-tnr p {
+    padding-bottom: 30px;
+}
+
+.judul {
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+    position: relative;
+    top: 35px;
+}
+
+.navbar {
+   background-color: #D9D9D9;
+   width: 1280px;
+   height: 50px;
+   align-content: center;
+}
+
+.ul-navbar {    
+    display: flex;
+    height: 28px;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-navbar {
+    list-style-type: none;
+    padding: 20px;
+    margin-top: 20px;
+    font-family: Poppins;
+}
+
+.kolom1 {
+    
+    width: 1018px ;
+    height: 653px;
+    top: 143px;
+    left: 131px;
+    /* background-color: aqua; */
+    position: relative;
+    top: 90px;
+}
+
+/* tentara */
+.bgtentara {
+    display: flex;
+    background-color: #D5FFDD;
+    width: 490px;
+    height: 180px;
+    border-radius: 20px;
+    
+}
+
+.bgtentara img {
+    width: 230px;
+    height: 230px;
+    position: relative;
+    top: -48px;
+}
+
+.btn-tnr {
+    width: 240px;
+    height: 37px;
+    background-color: #399349;
+    border-radius: 15px;
+    color: #ffffff; 
+    border: none;
+    width: 240px;   
+}
+
+
+/* petani */
+.bgpetani {
+    display: flex;
+    background-color:#FFF4DC;
+    width: 235px;
+    height: 180px;
+    border-radius: 20px;
+    flex-direction: column;
+    margin-top: 30px;
+    align-items: center;
+    display: flex;
+}
+
+.bgpetani img {
+    width: 173.7px;
+    height: 170px;
+    position: relative;
+    top: 11px;
+}
+
+.btn-ptn {
+    width: 173px;
+    height: 37px;
+    background-color: #E29A00;
+    border-radius: 15px;
+    color: #ffffff; 
+    border: none;
+    position: relative;
+    top: -35px;
+}
+
+
+/* pramugari */
+.bgpramugari {
+    display: flex;
+    background-color:#FFCED7;
+    width: 235px;
+    height: 180px;
+    border-radius: 20px;
+    flex-direction: column;
+    margin-top: 30px;
+    align-items: center;
+    display: flex;
+}
+
+.bgpramugari img {
+    width: 173px;
+    height: 170px;
+    position: relative;
+    top: 11px;
+}
+
+
+.btn-prg {
+    width: 173px;
+    height: 37px;
+    background-color: #FF5573;
+    border-radius: 15px;
+    color: #ffffff; 
+    border: none;
+    position: relative;
+    top: -35px;
+}
+
+
+/* fotografer */
+.bgfotografer {
+    display: flex;
+    background-color:#E2F2FF;
+    width: 230px;
+    height: 392px;
+    border-radius: 20px;
+    flex-direction:column;
+    /* margin-top: 30px; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    left: 260px;
+    top: -390px;
+}
+
+
+.bgfotografer img {
+    width: 160px;
+    height: 160px;
+}
+
+.des-foto h2{
+    text-align: center;
+}
+
+.des-foto p{
+    text-align: center;
+    font-size: 12px;
+}
+
+.btn-fgf {
+    width: 173px;
+    height: 37px;
+    background-color: #3279AF;
+    border-radius: 15px;
+    color: #ffffff; 
+    border: none;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+
+/* kolom2 */
+.kolom2 {
+    
+    width: 500px ;
+    height: 392px;
+    border-radius: 20px;
+    background-color: #F4F4F4;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    top: -993px;
+    left: 520px;
+}
+
+
+/* doktah */
+.bgdokter {
+    display: flex;
+    background-color:#FFFFFF;
+    width: 423px;
+    height: 96px;
+    border-radius: 20px;
+    flex-direction: column;
+    margin-top: 30px;
+    display: flex;
+    border: 1px solid #D8D6C1;
+    
+}
+
+.bgdokter img {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+.bgdokter h3 {
+    position: relative;
+    left: 100px;
+    top: -50px;
+}
+
+
+.btn-dkt {
+    width: 149px;
+    height: 22px;
+    background-color: #CAC8B3;
+    border-radius: 15px;
+    color: #ffffff; 
+    border: none;
+    position: relative;
+    top: -45px;
+    left: 95px;
+}
+
+
+/* pilot */
+.bgpilot {
+    display: flex;
+    background-color:#FFFFFF;
+    width: 423px;
+    height: 96px;
+    border-radius: 20px;
+    flex-direction: column;
+    margin-top: 30px;
+    display: flex;
+    border: 1px solid #D8D6C1;
+    
+}
+
+.bgpilot img {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+.bgpilot h3 {
+    position: relative;
+    left: 100px;
+    top: -50px;
+}
+
+
+.btn-plt {
+    width: 149px;
+    height: 22px;
+    background-color: #CAC8B3;
+    border-radius: 15px;
+    color: #ffffff; 
+    border: none;
+    position: relative;
+    top: -45px;
+    left: 95px;
+}
+
+
+/* ilmuan */
+.bgilmuwan {
+    display: flex;
+    background-color:#FFFFFF;
+    width: 423px;
+    height: 96px;
+    border-radius: 20px;
+    flex-direction: column;
+    margin-top: 30px;
+    display: flex;
+    border: 1px solid #D8D6C1;
+    
+}
+
+.bgilmuwan img {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+.bgilmuwan h3 {
+    position: relative;
+    left: 100px;
+    top: -50px;
+}
+
+
+.btn-ilm {
+    width: 149px;
+    height: 22px;
+    background-color: #CAC8B3;
+    border-radius: 15px;
+    color: #ffffff; 
+    border: none;
+    position: relative;
+    top: -45px;
+    left: 95px;
+}
+
+
+/* kolom3 */
+.kolom3 {
+    width: 499px ;
+    height: 180px;
+    border-radius: 20px;
+    background-color: #F4F4F4;
+    display: flex;
+    position: relative;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    top: 40px;
+    padding-bottom: 30px;
+}
+
+/* pembalap */
+
+.bgpembalap {
+    display: flex;
+    width: 230px;
+    height: 120px;
+    border-radius: 20px;
+    /* flex-direction: column; */
+    margin-top: 30px;
+    display: flex;
+
+}
+.bgpembalap img {
+    width: 120px;
+    height: 120px;
+    position: relative;
+}
+
+.bgpembalap h5 {
+   justify-content: center;
+   display: flex;
+   margin-top: 30px;
+}
+
+.btn-pmp{
+    width: 100px;
+    height: 55px;
+    background-color: #D8D6C1;
+    border-radius: 15px;
+    color: #ffffff; 
+    border: none;
+}
+
+
+
+/* astronot */
+.bgastronot {
+    display: flex;
+    width: 230px;
+    height: 120px;
+    border-radius: 20px;
+    /* flex-direction: column; */
+    margin-top: 30px;
+    display: flex;
+
+}
+.bgastronot img {
+    width: 120px;
+    height: 120px;
+    position: relative;
+}
+
+.bgastronot h5 {
+   justify-content: center;
+   display: flex;
+   margin-top: 30px;
+}
+
+.btn-ast{
+    width: 100px;
+    height: 55px;
+    background-color: #D8D6C1;
+    border-radius: 15px;
+    color: #ffffff; 
+    border: none;
+}
+
+
+
+
+
+/* Style untuk tampilan HP */
+
+
+/* tentara */
+.kolom-hp {
+    width: 425px ;
+    height: 2748px;
+    /* background-color: aqua; */
+    position: relative;
+    top: 30px;
+    left: 400px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.bgtentara-hp {
+    display: flex;
+    background-color: #D5FFDD;
+    width: 289px;
+    height: 289px;
+    border-radius: 20px;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+
+.bgtentara-hp img {
+    width: 230px;
+    height: 230px;
+    position: relative;
+    top: -48px;
+    
+}
+
+.btn-tnr-hp {
+    width: 240px;
+    height: 37px;
+    background-color: #399349;
+    border-radius: 15px;
+    color: #ffffff; 
+    border: none;
+    width: 240px; 
+    position: relative;  
+    top: -110px;
+}
+
+.des-tnr-hp{
+    margin-top: -30px;
+    text-align: center;
+}
+
+/* .des-tnr-hp p {
+   
+} */
+
+
+/* petani */
+.bgpetani-hp {
+    display: flex;
+    background-color:#FFF4DC;
+    width: 288.53px;
+    height: 221px;
+    border-radius: 20px;
+    flex-direction: column;
+    margin-top: 30px;
+    align-items: center;
+    display: flex;
+}
+
+.bgpetani-hp img {
+    width: 213.26px;
+    height: 208.72px;
+    position: relative;
+    top: 14px;
+}
+
+.btn-ptn-hp {
+    width: 173px;
+    height: 37px;
+    background-color: #E29A00;
+    border-radius: 15px;
+    color: #ffffff; 
+    border: none;
+    position: relative;
+    top: -35px;
+}
+
+
+/* pramugari */
+.bgpramugari-hp {
+    display: flex;
+    background-color:#FFCED7;
+    width: 281px;
+    height: 241.19px;
+    border-radius: 20px;
+    flex-direction: column;
+    margin-top: 30px;
+    align-items: center;
+    display: flex;
+}
+
+.bgpramugari-hp img {
+    width: 209.06px;
+    height: 226.53px;
+    position: relative;
+    top: 33px;
+}
+
+
+.btn-prg-hp {
+    width: 173px;
+    height: 37px;
+    background-color: #FF5573;
+    border-radius: 15px;
+    color: #ffffff; 
+    border: none;
+    position: relative;
+    top: -17px;
+}
+
+
+
+/* 
+fotografer */
+.bgfotografer-hp {
+    display: flex;
+    background-color:#E2F2FF;
+    width: 289px;
+    height: 314px;
+    border-radius: 20px;
+    flex-direction:column;
+    /* margin-top: 30px; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    top: 100px;
+}
+
+
+.bgfotografer-hp img {
+    width: 230px;
+    height: 230px;
+    position: relative;
+    top: -50px;
+}
+
+.des-foto-hp h2{
+    text-align: center;
+}
+
+.des-foto-hp p{
+    text-align: center;
+    font-size: 12px;
+}
+
+.btn-fgf-hp {
+    width: 173px;
+    height: 37px;
+    background-color: #3279AF;
+    border-radius: 15px;
+    color: #ffffff; 
+    border: none;
+    position: relative;
+    top: -120px;
+    left: 50px; 
+}
+
+/* 
+Doktah */
+
+.bgdokter-hp {
+    display: flex;
+    background-color:#E9E8E2;
+    width: 288.53px;
+    height: 221px;
+    border-radius: 20px;
+    flex-direction: column;
+    margin-top: 30px;
+    align-items: center;
+    display: flex;
+    position: relative;
+    top: 100px;
+}
+
+.bgdokter-hp img {
+    width: 213px;
+    height: 213px;
+    position: relative;
+    top: 10px;
+}
+
+
+.btn-dkt-hp {
+    width: 173px;
+    height: 37px;
+    background-color: #CAC8B3;
+    border-radius: 15px;
+    color: #ffffff; 
+    border: none;
+    position: relative;
+    top: -45px;
+}
+
+
+/* pilot */
+.bgpilot-hp {
+    display: flex;
+    background-color:#E9E8E2;
+    width: 288.53px;
+    height: 221px;
+    border-radius: 20px;
+    flex-direction: column;
+    margin-top: 30px;
+    align-items: center;
+    display: flex;
+    position: relative;
+    top: 100px;
+}
+
+.bgpilot-hp img {
+    width: 213px;
+    height: 213px;
+    position: relative;
+    top: 10px;
+}
+
+
+.btn-plt-hp {
+    width: 173px;
+    height: 37px;
+    background-color: #CAC8B3;
+    border-radius: 15px;
+    color: #ffffff; 
+    border: none;
+    position: relative;
+    top: -45px;
+}
+
+
+/* ilmuwan */
+.bgilmuwan-hp {
+    display: flex;
+    background-color:#E9E8E2;
+    width: 288.53px;
+    height: 221px;
+    border-radius: 20px;
+    flex-direction: column;
+    margin-top: 30px;
+    align-items: center;
+    display: flex;
+    position: relative;
+    top: 100px;
+}
+
+.bgilmuwan-hp img {
+    width: 213px;
+    height: 213px;
+    position: relative;
+    top: 10px;
+}
+
+
+.btn-ilm-hp {
+    width: 173px;
+    height: 37px;
+    background-color: #CAC8B3;
+    border-radius: 15px;
+    color: #ffffff; 
+    border: none;
+    position: relative;
+    top: -45px;
+}
+
+
+/* pembalap */
+.bgpembalap-hp {
+    display: flex;
+    background-color:#FFDBC5;
+    width: 288.53px;
+    height: 221px;
+    border-radius: 20px;
+    flex-direction: column;
+    margin-top: 30px;
+    align-items: center;
+    display: flex;
+    position: relative;
+    top: 100px;
+}
+
+.bgpembalap-hp img {
+    width: 213px;
+    height: 213px;
+    position: relative;
+    top: 10px;
+}
+
+
+.btn-pmp-hp {
+    width: 173px;
+    height: 37px;
+    background-color: #E36415;
+    border-radius: 15px;
+    color: #ffffff; 
+    border: none;
+    position: relative;
+    top: -45px;
+}
+
+
+/* astronot */
+.bgastronot-hp {
+    display: flex;
+    background-color:#8FC5ED;
+    width: 288.53px;
+    height: 221px;
+    border-radius: 20px;
+    flex-direction: column;
+    margin-top: 30px;
+    align-items: center;
+    display: flex;
+    position: relative;
+    top: 100px;
+}
+
+.bgastronot-hp img {
+    width: 213px;
+    height: 213px;
+    position: relative;
+    top: 10px;
+}
+
+
+.btn-ast-hp {
+    width: 173px;
+    height: 37px;
+    background-color: #275E87;
+    border-radius: 15px;
+    color: #ffffff; 
+    border: none;
+    position: relative;
+    top: -45px;
+}
