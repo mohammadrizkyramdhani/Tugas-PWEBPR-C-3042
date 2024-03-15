@@ -23,8 +23,19 @@
     line-height: 60px;
     letter-spacing: 0em;
     text-align: center;
-    position: relative;
-    top: 35px;
+    /* position: relative;
+    top: 35px; */
+}
+
+.judul-hp {
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    /* position: relative;
+    top: 35px; */
+    margin-left: 20px;
 }
 
 .navbar {
@@ -432,13 +443,14 @@
     width: 425px ;
     height: 2748px;
     /* background-color: aqua; */
-    position: relative;
-    top: 30px;
-    left: 400px;
+    /* position: relative;
+    top: 120px;
+    left: 400px; */
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     display: flex;
     flex-direction: column;
+    margin-top: 80px;
     
 }
 
