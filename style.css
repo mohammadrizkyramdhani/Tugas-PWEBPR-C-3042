@@ -23,8 +23,8 @@
     line-height: 60px;
     letter-spacing: 0em;
     text-align: center;
-    /* position: relative;
-    top: 35px; */
+    position: relative;
+    top: 35px;
 }
 
 .judul-hp {
